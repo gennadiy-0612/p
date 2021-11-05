@@ -1,0 +1,158 @@
+@font-face {
+  font-family: days;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Days'), local('Days-Regular'), url('../../css/days.woff') format('woff'), url('../../css/days.ttf') format('truetype');
+  font-display: swap;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1000px;
+}
+
+h1 {
+  position: relative;
+  color: #fff;
+  text-shadow: 0 0 4px black;
+  padding: 0 20px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+h1, p, label, input, textarea {
+  font-family: 'Days', Arial, sans-serif;
+}
+
+h1::before {
+  content: '';
+  border: 3px solid rgba(17, 84, 143, 0.83);
+  width: 97%;
+  height: 117%;
+  display: block;
+  border-radius: 15px;
+  position: absolute;
+  transform: rotate(1deg);
+  left: 0;
+  right: 0;
+  top: -6px;
+  margin: auto;
+  z-index: -1;
+}
+
+h1::after {
+  content: '';
+  border: 3px solid rgba(17, 84, 143, 0.83);
+  width: 97%;
+  height: 117%;
+  display: block;
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -6px;
+  margin: auto;
+  z-index: -1;
+  transform: rotate(-1deg);
+  background-color: rgba(17, 84, 143, 0.83);
+}
+
+form {
+  margin: 30px 0;
+  position: relative;
+}
+
+label {
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  margin: 50px auto;
+  color: #000000ad;
+}
+
+fieldset {
+  border-radius: 10px;
+  background-color: #feff01;
+  border-width: 0;
+  box-shadow: 0 0 13px #8e8e8e;
+  padding: 20px 10px;
+}
+
+fieldset .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input {
+  text-align: center;
+}
+
+input, textarea {
+  display: block;
+  font-family: 'Days', arial, serif;
+  font-size: 16px;
+  color: #25292E;
+  padding: 12px 15px;
+  background: #fff;
+  border: 1px solid #ABB3BE;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  outline: none;
+  width: 32%;
+}
+
+textarea {
+  margin: 15px auto;
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 30px;
+  padding: 0 10px;
+  background: #3075F3;
+  border-radius: 6px;
+  border: none;
+  width: auto;
+  margin: 40px auto 15px;
+  box-shadow: 0 0 7px black;
+}
+
+.footer {
+  border-top: 1px solid #9d9d9d;
+  padding: 20px 10px;
+  margin: 20px 0 0;
+  background-color: #e2e2e2;
+}
+
+.footer p {
+  font-size: 10px;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 100;
+}
+
+@media (max-width: 850px) {
+  div.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+  }
+
+  div.contact input {
+    width: 100%;
+    margin: 10px auto;
+  }
+}
