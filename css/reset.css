@@ -1,0 +1,528 @@
+#testest {
+    border: solid #000;
+    border-width: 3px;
+    border-style: dotted none none none;
+}
+
+#testest > tbody > tr > td {
+    text-align: left;
+}
+
+#container2 {
+    background-color: #ffffff;
+    padding: 8px 8px 8px 8px;
+}
+
+#quanty {
+    margin-bottom: 18px;
+}
+
+#filldetails {
+    padding: 8px 8px 8px 8px;
+    color: white;
+    border: 0px;
+    border-radius: 35px;
+    background-color: silver;
+}
+
+.container.main {
+    margin: 30px;
+    width: auto;
+}
+
+.info {
+    padding: 0;
+    margin: 0;
+}
+
+.deletePosition {
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    float: right;
+    border: 0;
+    border-radius: 35px;
+    border-color: white;
+    background-color: black;
+    position: absolute;
+    right: -69px;
+    top: 30%;
+}
+
+.summ {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+*, *:after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.eot');
+    src: url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon.ttf') format('truetype'), url('../fonts/icomoon/icomoon.woff') format('woff'), url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+}
+
+/* Hack for safary*/
+#please-choice {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
+    border-radius: 0.3em;
+    z-index: 3;
+    overflow: auto;
+    box-shadow: 0 0 5px black;
+}
+
+#please-choice p.print, #please-choice .send {
+    position: absolute;
+    text-align: center;
+    border-radius: 0.3em;
+    bottom: 0;
+    left: 4.5em;
+    padding: 0.6em 1.3em;
+    font-size: 4.7em;
+    border: 0.1em solid;
+    margin: 0 0 1em 0;
+    line-height: 1em;
+}
+
+#please-choice strong.print {
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: 5.2em;
+    border-top: solid 0.1em;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    padding: 0.4em 0;
+    margin: 3.3em 3em 5em;
+    line-height: 6.4em;
+    text-align: end;
+}
+
+#please-choice .logo {
+    height: 6em;
+    width: 15em;
+    position: absolute;
+    left: 4.4em;
+    top: 5.3em;
+    background-image: url(../img/logo.png);
+    box-shadow: 0 0 2px black;
+}
+
+.current-date {
+    display: block;
+    float: right;
+    font-weight: 600;
+    margin: 1em;
+    position: absolute;
+    right: 0.7em;
+    top: 0.9em;
+    font-size: 3.1em;
+}
+
+.head {
+    margin: 5.4em 0 0;
+    text-align: center;
+    font-size: 7.2em;
+    font-weight: 100;
+}
+
+.years3warranty {
+    margin: 1.8em 3.8em -2.9em;
+    font-size: 3.5em;
+    text-align: right;
+}
+
+.price {
+    font-size: 2.8em;
+    padding: 0 4.8em 12em;
+    font-weight: 600;
+    line-height: 2.7em;
+}
+
+#please-choice .send {
+    right: 2em;
+    left: auto;
+    padding: 0.6em 1em;
+    bottom: 0;
+}
+
+#please-choice .close, .close-form {
+    position: absolute;
+    height: 2em;
+    line-height: 0.2em;
+    width: 3em;
+    padding: 1em;
+    top: 0;
+    right: 1em;
+    border-radius: 0.5em;
+    border: solid 0.2em;
+    font-size: 1.1em;
+}
+
+/* Hack for safary*/
+/* General styles for all types of buttons */
+.progress-button {
+    padding: 20px;
+    color: black;
+    float: right;
+    font-weight: 500;
+    font-size: 25px;
+    border: 0;
+    border-radius: 12px;
+    border: solid #000;
+    border-width: 3px;
+}
+
+#please-choice {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
+    border-radius: 0.3vw;
+    z-index: 3;
+    overflow: auto;
+    padding-bottom: 6vw;
+    box-shadow: 0 0 5px black;
+}
+
+#please-choice p.print, #please-choice .send {
+    position: absolute;
+    text-align: center;
+    border-radius: 1.5vw;
+    bottom: 0;
+    left: 8vw;
+    padding: 4.2vw 4.6vw;
+    font-size: 4.7vw;
+    border: 0.3vw solid;
+    margin: 0 0 7vw 0;
+    line-height: 1vw;
+}
+
+#please-choice strong.print {
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: 4.2vw;
+    border-top: solid 0.4vw;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    padding: 4.1vw 0;
+    margin: 1.1vw 11.2vw 16vw;
+    line-height: 6.4vw;
+    text-align: end;
+}
+
+#please-choice .logo {
+    height: 6vw;
+    width: 11vw;
+    position: absolute;
+    left: 4.4vw;
+    top: 3vw;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-color: #502d2d;
+}
+
+.current-date {
+    display: block;
+    float: right;
+    font-size: 1.6vw;
+    font-weight: 600;
+    margin: 1vw;
+    position: absolute;
+    right: 4vw;
+    top: 3vw;
+    font-size: 2.5vw;
+}
+
+.head {
+    margin: 32vw 0 4.2vw;
+    text-align: center;
+    font-size: 7vw;
+    font-weight: 100;
+}
+
+.years3warranty {
+    margin: 3.5vw 11.6vw 5.9vw;
+    font-size: 3.2vw;
+    text-align: right;
+}
+
+.price {
+    font-size: 2.4vw;
+    padding: 0 11.7vw 11vw;
+    font-weight: 600;
+    line-height: 3.3vw;
+}
+
+#please-choice .send {
+    right: 9vw;
+    left: auto;
+    padding: 4.2vw 2vw;
+    bottom: 0;
+}
+
+#please-choice .close, .close-form {
+    position: absolute;
+    height: 2vw;
+    line-height: 0.2vw;
+    width: 3vw;
+    padding: 1vw;
+    top: 0;
+    right: 1vw;
+    border-radius: 0.5vw;
+    border: solid 0.2vw;
+    font-size: 1.1vw;
+}
+
+#please-choice .close {
+    position: fixed;
+}
+
+#prepare {
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    background-color: #efefef;
+    width: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 2px black;
+    padding: 1%;
+    height: 235px;
+}
+
+#prepare::before, .modal-dialog.modal-sm::before {
+    content: '';
+    background-color: rgb(185, 182, 182);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+#prepare span {
+    top: 4%;
+    right: 1%;
+}
+
+.not-filled {
+    background-color: #FF9800;
+}
+
+.filled {
+    background-color: #00ff78;
+}
+
+#prepare input, #prepare button {
+    width: 70%;
+    height: 15%;
+    display: block;
+    margin: 2% auto;
+    padding-left: 2%;
+    max-height: 40px;
+}
+
+#prepare button {
+    width: 30%;
+    font-size: 100%;
+    height: 20%;
+    background-color: #b9b6b6;
+    border-radius: 10px;
+    border: 3px #000 solid;
+    padding: 0;
+}
+
+@media (max-height: 540px) {
+    #prepare {
+        background-color: #d81010;
+        box-shadow: inset 0 0 8px black;
+        padding: 0;
+        top: 1%;
+        bottom: initial;
+        height: 70%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 530px) {
+    body.submit .modal-dialog.modal-sm {
+        width: 97%;
+    }
+}
+
+@media print {
+    /*@media print and (width: 210mm) and (height: 297mm) {*/
+    @page {
+        margin: 3cm;
+    }
+
+    #please-choice {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: #fff;
+        width: 100%;
+        padding: 0;
+        border-radius: .6mm;
+        z-index: 3;
+        overflow: auto;
+        /*         padding-bottom: 12mm; */
+        box-shadow: 0 0 5px black;
+    }
+
+    #please-choice p.print, #please-choice .send {
+        position: absolute;
+        text-align: center;
+        border-radius: 3mm;
+        bottom: 0;
+        left: 36mm;
+        padding: 8.4mm 9.2mm;
+        font-size: 9.4mm;
+        border: .6mm solid;
+        margin: 0 0 1mm 0;
+        line-height: 2mm;
+    }
+
+    #please-choice strong.print {
+        border-bottom: 0;
+        border-right: 0;
+        border-left: 0;
+        font-size: 8.4mm;
+        border-top: solid .8mm;
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        padding: 8.2mm 0;
+        margin: 2.2mm 22.4mm 2mm;
+        line-height: 12.8mm;
+        text-align: end;
+    }
+
+    #please-choice .logo {
+        height: 12mm;
+        width: 22mm;
+        position: absolute;
+        left: 8.8mm;
+        top: 6mm;
+        background-image: url(../img/logo.png);
+        background-size: contain;
+        background-color: #502d2d;
+    }
+
+    .current-date {
+        display: block;
+        float: right;
+        font-weight: 600;
+        margin: 2mm;
+        position: absolute;
+        right: 8mm;
+        top: 6mm;
+        font-size: 5mm;
+    }
+
+    .head {
+        margin: 64mm 0 8.4mm;
+        text-align: center;
+        font-size: 14mm;
+        font-weight: 100;
+    }
+
+    .years3warranty {
+        margin: 7mm 23.2mm 11.8mm;
+        font-size: 6.4mm;
+        text-align: right;
+    }
+
+    .price {
+        font-size: 4.8mm;
+        padding: 0 23.4mm 22mm;
+        font-weight: 600;
+        line-height: 6.6mm;
+    }
+
+    #please-choice .send {
+        right: 18mm;
+        left: auto;
+        padding: 8.4mm 4mm;
+        bottom: 0;
+    }
+
+    #please-choice .close, .close-form {
+        position: absolute;
+        height: 4mm;
+        line-height: .4mm;
+        width: 6mm;
+        padding: 2mm;
+        top: 0;
+        right: 2mm;
+        border-radius: 1mm;
+        border: solid .4mm;
+        font-size: 2.2mm;
+    }
+
+    #please-choice .close {
+        position: fixed;
+    }
+
+    #prepare {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        background-color: #efefef;
+        height: 80%;
+        width: 95%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 2px black;
+        padding: 1%;
+    }
+
+    #prepare textarea {
+        width: 100% !important;
+        display: block;
+        margin: auto !important;
+    }
+
+    #please-choice p.print, p.send, p.close {
+        opacity: 0;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    /*}*/
+}
